@@ -1,0 +1,87 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body {
+    background: url(../images/homebg.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+    margin: 50px 220px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+table, th, td {
+    text-align: center;
+    border: 2px solid white;
+    width: 1030px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+th {
+    background-color: gold;
+}
+
+tbody {
+    overflow-y: auto;
+}
+
+table {
+    display: none;
+}
+
+.myaccount {
+    position: absolute;
+    top: 55px;
+    left: 1050px;
+    width: 200px;
+}
+
+
+.myaccount label {
+    font-size: 30px;
+    font: bold;
+    background: gold;
+    padding: 0px 9px;
+    border-radius: 5px;
+}
+
+.ulaccount {
+    position: absolute;
+    top: 18px;
+    left: 0px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.myaccount ul li {
+    width: 150px;
+    padding: 5px 0px 5px 10px;
+    background: rgb(255, 227, 67);
+    margin-bottom: 2px;
+    border-radius: 5px;
+}
+
+#ulacc {
+    display: none;
+}
+
+#ulacc button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: none;
+    font-size: 20px;
+    border: none;
+    padding: 0px;
+    cursor: pointer;
+}
+
+#ulacc li a {
+    text-decoration: none;
+    color: black;
+}
+
+.myaccount:hover > #ulacc{
+    display: inline-block;
+}
